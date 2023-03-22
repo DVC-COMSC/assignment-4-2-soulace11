@@ -11,3 +11,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+row_num = int(input("Enter a row number (0, 1, or 2): "))
+row_sum = sum(matrix[row_num])
+print("The summation of row", row_num, "is", row_sum)
+
